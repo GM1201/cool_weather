@@ -3,7 +3,9 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/coolweather/app/src/main/res/drawable/ic_launcher_background.xml" value="0.22314814814814815" />
         <entry key="..\:/coolweather/app/src/main/res/layout/activity_main.xml" value="0.1" />
+        <entry key="..\:/coolweather/app/src/main/res/layout/choose_area.xml" value="0.13043478260869565" />
       </map>
     </option>
   </component>

@@ -15,10 +15,10 @@ public class County extends LitePalSupport {
         this.id = id;
     }
 
-    public String getCountyname() {
+    public String getCountyName() {
         return countyname;
     }
-    public void setCountyname(String countyname) {
+    public void setCountyName(String countyname) {
         this.countyname = countyname;
     }
     public int getCountyCode() {
@@ -36,7 +36,7 @@ public class County extends LitePalSupport {
     public int getCityId() {
         return cityId;
     }
-    public void seiCityId(int cityId) {
+    public void setCityId(int cityId) {
         this.cityId = cityId;
     }
 }
