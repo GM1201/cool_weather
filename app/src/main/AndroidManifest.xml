@@ -12,7 +12,9 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Coolweather"
+        android:usesCleartextTraffic="true"
         tools:ignore="MissingClass">
+        <activity android:name=".WeatherActivity"/>
         <activity
             android:name=".MainActivity"
             android:exported="true">
@@ -22,8 +24,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <service
+            android:name="com.example.coolweather.service.AutoUpdateService"
+            android:enabled="true"
+            android:exported="true">
+        </service>
 
-        <activity android:name=".WeatherActivity" />
     </application>
 
 </manifest>
